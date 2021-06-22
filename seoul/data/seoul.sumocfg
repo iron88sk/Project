@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Fri Apr  9 18:54:15 2021 by Eclipse SUMO sumo Version 1.8.0
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="seoul.net.xml"/>
+        <!-- <route-files value="seoul.passenger.trips.xml"/> -->
+        <route-files value="seoul.rou.xml"/>
+        <!-- <additional-files value="osm.poly.xml"/> -->
+        <additional-files value="seoul.add.xml"/>
+    </input>
+
+    <processing>
+        <ignore-route-errors value="true"/>
+    </processing>
+
+    <routing>
+        <device.rerouting.adaptation-steps value="18"/>
+        <device.rerouting.adaptation-interval value="10"/>
+    </routing>
+
+    <report>
+        <verbose value="true"/>
+        <duration-log.statistics value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <gui_only>
+        <gui-settings-file value="seoul.view.xml"/>
+    </gui_only>
+
+</configuration>

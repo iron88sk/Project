@@ -1,0 +1,111 @@
+<flows>
+    <interval begin="0" end="3600">
+        <flow id="1to9" from="180190213#2" to="-198564930" via="-219053199#2" number="240"/>
+    </interval>
+
+    <interval begin="0" end="3600">
+        <flow id="2to8" from="517641011#6" to="gneE4" via="-219053199#2" number="150"/>
+    </interval>
+    <interval begin="0" end="3600">
+        <flow id="2to13" from="517641011#6" to="gneE35" via="184083199#6" number="1046"/>
+    </interval>
+
+    <interval begin="0" end="3600">
+        <flow id="3to7" from="732213463#8.123" to="613477341" via="gneE41" number="80"/>
+    </interval>
+    <interval begin="0" end="3600">
+        <flow id="3to9" from="732213463#8.123" to="-198564930" via="-218923156#5" number="80"/>
+    </interval>
+    <interval begin="0" end="3600">
+        <flow id="3to13" from="732213463#8.123" to="gneE35" via="350127794#5" number="80"/>
+    </interval>
+
+    <interval begin="0" end="3600">
+        <flow id="4to13" from="184083181#6" to="gneE35" via="218923156#4" number="223"/>
+    </interval>
+    <interval begin="0" end="3600">
+        <flow id="4to16" from="184083181#6" to="219053199#6" via="218923156#4" number="224"/>
+    </interval>
+    <interval begin="0" end="3600">
+        <flow id="4to9" from="184083181#6" to="-198564930" number="438"/>
+    </interval>
+
+    <interval begin="0" end="3600">
+        <flow id="5to1" from="824132484" to="-180190213#3" via="517641026#2" number="80"/>
+    </interval>
+    <interval begin="0" end="3600">
+        <flow id="5to9" from="824132484" to="-198564930" via="218923188#2" number="200"/>
+    </interval>
+
+    <interval begin="0" end="3600">
+        <flow id="6to2" from="420361195#0.464" to="gneE22" via="517641026#2" number="80"/>
+    </interval>
+
+    <interval begin="0" end="3600">
+        <flow id="7to16" from="913565824#0" to="219053199#6" via="218923156#4" number="80"/>
+    </interval>
+    <interval begin="0" end="3600">
+        <flow id="7to17" from="913565824#0" to="782892487" via="919117822#4" number="200"/>
+    </interval>
+
+    <interval begin="0" end="3600">
+        <flow id="8to3" from="gneE3" to="218924602#0" via="908646367#10" number="80"/>
+    </interval>
+    <interval begin="0" end="3600">
+        <flow id="8to4" from="gneE3" to="184083183#0" via="782892488#3" number="873"/>
+    </interval>
+    <interval begin="0" end="3600">
+        <flow id="8to11" from="gneE3" to="350127794#6" via="350127794#5" number="80"/>
+    </interval>
+    <interval begin="0" end="3600">
+        <flow id="8to16" from="gneE3" to="219053199#6" via="219053199#3" number="160"/>
+    </interval>
+
+    <interval begin="0" end="3600">
+        <flow id="9to10" from="198564930" to="gneE27" via="469260694#0" number="80"/>
+    </interval>
+    <interval begin="0" end="3600">
+        <flow id="9to14" from="198564930" to="gneE37" via="gneE32" number="50"/>
+    </interval>
+    <interval begin="0" end="3600">
+        <flow id="9to16" from="198564930" to="219053199#6" via="218923156#0" number="100"/>
+    </interval>
+    <interval begin="0" end="3600">
+        <flow id="9to17" from="198564930" to="782892487" via="218923156#0" number="100"/>
+    </interval>
+
+    <interval begin="0" end="3600">
+        <flow id="11to2" from="gneE31" to="gneE22" via="219053199#0" number="458"/>
+    </interval>
+    <interval begin="0" end="3600">
+        <flow id="11to16" from="gneE31" to="gneE27" via="219053199#0" number="50"/>
+    </interval>
+
+    <interval begin="0" end="3600">
+        <flow id="13to2" from="gneE34" to="gneE22" via="218919060#5" number="609"/>
+    </interval>
+    <interval begin="0" end="3600">
+        <flow id="13to8" from="gneE34" to="gneE4" via="-219053199#2" number="200"/>
+    </interval>
+    <interval begin="0" end="3600">
+        <flow id="13to4" from="gneE34" to="184083183#0" number="175"/>
+    </interval>
+
+    <interval begin="0" end="3600">
+        <flow id="16to7" from="-219053199#7" to="613477341" via="233651288#1" number="100"/>
+    </interval>
+    
+    <interval begin="0" end="3600">
+        <flow id="16to8" from="-219053199#7" to="gneE4" via="-218923156#5" number="500"/>
+    </interval>
+
+    <interval begin="0" end="3600">
+        <flow id="17to7" from="717851360#2" to="613477341" via="gneE41" number="80"/>
+    </interval>
+    <interval begin="0" end="3600">
+        <flow id="17to8" from="717851360#2" to="gneE4" via="gneE41" number="80"/>
+    </interval>
+    <interval begin="0" end="3600">
+        <flow id="17to8_2" from="717851360#2" to="gneE4" via="184083199#6" number="100"/>
+    </interval>
+</flows>
